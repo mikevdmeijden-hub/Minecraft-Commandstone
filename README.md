@@ -14,6 +14,10 @@ Type in the search box (Ctrl+F jumps to it). Use the Type dropdown to focus a ca
 Build & copy
 Click any entry to open its builder on the right. Fields update the preview live; press Copy command to send it to your clipboard. Every kind builds the right command automatically — a block becomes /setblock (or /fill or /give), an item /give, an effect /effect, an enchant /enchant, a mob /summon, a biome /locate, and so on.
 
+Smart fields (searchable)
+ID and Target fields have a built-in search-as-you-type dropdown. Start typing an Item, Block, Entity, Effect or Enchantment ID and matching options appear below the box — click one, or use ↑/↓ and Enter, to fill it in. You can still type any value by hand.
+Target fields suggest the common selectors with a short note on each: @p (nearest player), @a (all players), @r (random player), @s (yourself), @e (all entities), plus filtered examples like @e[distance=..10] or @a[gamemode=survival]. Only the selector is inserted — the description is just a hint. You can search by meaning too (type “gamemode” or “within” to find the matching selectors).
+
 Favorites & history
 Click the ☆ star on any entry to favorite it; the ★ Favorites filter shows just those. Every command you copy is saved in History (Edit › History), where you can re-copy or clear it.
 
